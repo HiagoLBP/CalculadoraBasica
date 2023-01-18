@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    text-align: center;
+    display: inline-flexbox;
+    font-size: 3rem;
+    font-family: Consolas, monaco, monospace;
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+}
+
+.mapa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.back{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+#printresult{
+    width: 358px;
+    background-color: #e7e1e1;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+.calcukey{   
+    border: none;
+    width: 90px;
+    height: 70px;
+    margin: 0px;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.calcukey:hover{
+    background-color: white;
+}
+
+body{
+    background: linear-gradient(to right, #3B3B3B, #5C5C5C, #808080);
+}
+

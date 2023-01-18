@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="text">Calculadora</div>
+    <div class="back">
+    <div class="mapa">
+        <p id="printresult"> </p>
+        <div class="nums">
+            <button class="calcukey" onclick="excluir()">C</button>
+            <button class="calcukey" onclick="apagar()"><</button>
+            <button class="calcukey" onclick="inserir('*')">*</button>
+            <button class="calcukey" id="mudar" style="color: brown;">On</button>
+            
+        </div>
+        
+        <div class="nums">
+            <button class="calcukey" onclick="inserir('7')">7</button>
+            <button class="calcukey" onclick="inserir('8')">8</button>
+            <button class="calcukey" onclick="inserir('9')">9</button>
+            <button class="calcukey" onclick="inserir('/')">/</button>
+        </div>
+        
+        <div class="nums">
+            <button class="calcukey" onclick="inserir('4')">4</button>
+            <button class="calcukey" onclick="inserir('5')">5</button>
+            <button class="calcukey" onclick="inserir('6')">6</button>
+            <button class="calcukey" onclick="inserir('-')">-</button>
+        </div>
+
+        <div class="nums">
+            <button class="calcukey" onclick="inserir('1')">1</button>
+            <button class="calcukey" onclick="inserir('2')">2</button>
+            <button class="calcukey" onclick="inserir('3')">3</button>
+            <button class="calcukey" onclick="inserir('+')">+</button>
+        </div>
+
+        <div class="nums">
+            <button class="calcukey" style="width: 185px;" onclick="insert('0')">0</button>
+            <button class="calcukey" onclick="inserir('.')">.</button>
+            <button class="calcukey" onclick="calculo()">=</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
