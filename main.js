@@ -1,6 +1,12 @@
 function inserir(num){
-    let numero = document.getElementById("printresult").innerHTML
-    document.getElementById("printresult").innerHTML = numero + num
+    let output = document.getElementById("printresult");
+    let lastChar = output.innerHTML.slice(-1);
+    if (lastChar === "+" || lastChar === "-" || lastChar === "*" || lastChar === "/") {
+        if (num === "+" || num === "-" || num === "*" || num === "/") {
+            return;
+        }
+    }
+    output.innerHTML += num;
 }
 
 function excluir(){
