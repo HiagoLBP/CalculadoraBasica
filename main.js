@@ -1,8 +1,8 @@
 function inserir(num){
     let output = document.getElementById("printresult");
     let lastChar = output.innerHTML.slice(-1);
-    if (lastChar === "+" || lastChar === "-" || lastChar === "*" || lastChar === "/") {
-        if (num === "+" || num === "-" || num === "*" || num === "/") {
+    if (lastChar === "+" || lastChar === "-" || lastChar === "*" || lastChar === "/" || lastChar === "0") {
+        if (num === "+" || num === "-" || num === "*" || num === "/" || num === "0" ) {
             return;
         }
     }
